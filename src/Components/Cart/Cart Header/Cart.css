@@ -1,0 +1,34 @@
+.inCart-number {
+  display: flex;
+  background-color: skyblue;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 2px 9px;
+  z-index: 10;
+}
+
+.cart-icon {
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .inCart-number {
+    display: flex;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 9px;
+    z-index: 10;
+    justify-content: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .cart-icon {
+    color: white;
+  }
+}

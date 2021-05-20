@@ -1,0 +1,11 @@
+.main {
+  width: 35%;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    padding-top: 1.3rem;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+}

@@ -1,0 +1,185 @@
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+  cursor: pointer;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products img {
+  width: 75px;
+}
+
+.products,
+.product-header {
+  justify-content: center;
+}
+.container-products {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container,
+container-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  z-index: 0;
+}
+.productName {
+  width: 189px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: black;
+  height: 39px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.product-color {
+  /* padding: 0px 0 10px 0;
+    font-weight: 600;
+    color: #444;
+    height: 20px;
+    line-height: 20px; */
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+}
+
+/* .product-price ins {
+  display: block;
+  margin-right: 5px;
+} */
+/* .product-price span.priceProduct {
+  color: red;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+} */
+
+.priceProduct {
+  color: red;
+  /* line-height: 20px; */
+  font-family: "Roboto", sans-serif;
+  /* text-decoration: none; */
+  font-size: 15px;
+  margin-left: 0px;
+}
+/* .product-price span.colorName {
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  float: left;
+} */
+.colorName {
+  /* line-height: 20px; */
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+
+.container,
+container-products {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  z-index: 0;
+}
+
+.product-item {
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  padding: 0.5em 0.3em;
+  border: 1px solid gainsboro;
+}
+
+.product-item img {
+  width: 189px;
+  height: 189px;
+}
+
+.product-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-products {
+  max-width: 650px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.container-products ion-icon {
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+
+.price {
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+/* star */
+.rating-inactive {
+  width: 85px;
+  display: flex;
+  position: absolute;
+  /* background-color: beige; */
+}
+.rating-active {
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  color: yellow;
+  /* background-color: aqua; */
+  /* width: 10px; */
+}
+.fa{
+  font-size: 12px !important;
+}
+.rate-row{
+  padding-top:1px ;
+  margin:3px 0px 1px  0px;
+  height: 16px;
+}

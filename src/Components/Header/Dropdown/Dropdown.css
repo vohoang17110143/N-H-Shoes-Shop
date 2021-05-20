@@ -1,0 +1,35 @@
+.c-header-nav-items {
+  display: none !important;
+}
+
+.drop-menu-m {
+  background-color: black;
+}
+
+.drop-menu-m .item {
+  color: white;
+}
+
+.drop-menu-m .item-sp {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .drop-menu-icon-1 {
+    display: block i !important;
+    color: white;
+  }
+  .c-header-nav-items {
+    margin-left: 20px;
+    margin-right: auto;
+    display: block !important;
+  }
+
+  .drop-menu-icon-2 {
+    display: none !important;
+  }
+  .drop-menu-m .item-sp {
+    display: block;
+    color: white;
+  }
+}

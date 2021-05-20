@@ -1,0 +1,25 @@
+.page-footer {
+  background: black;
+  color: white;
+  padding-bottom: 50px;
+}
+.contract-list {
+  list-style: none;
+}
+
+.contract-item {
+  color: ghostwhite;
+}
+.contract-item:hover {
+  color: ghostwhite;
+}
+
+.customer-help-list {
+  list-style: none;
+}
+.customer-help-item {
+  color: ghostwhite;
+}
+.customer-help-item:hover {
+  color: ghostwhite;
+}

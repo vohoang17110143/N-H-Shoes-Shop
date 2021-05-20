@@ -1,0 +1,25 @@
+.btn-update-cart {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 7.2px 12px;
+}
+.btn-cart-payment {
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0) !important;
+  border-radius: 0;
+  background-color: #5bc0de !important;
+  font-weight: bold;
+}
+.btn-cart-continue {
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0) !important;
+  border-radius: 0;
+  background-color: #4caf50 !important;
+  font-weight: bold;
+}
+
+.icon-delete {
+  cursor: pointer;
+}

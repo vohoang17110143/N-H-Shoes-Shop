@@ -1,0 +1,6 @@
+.img-preview {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 4em;
+}
